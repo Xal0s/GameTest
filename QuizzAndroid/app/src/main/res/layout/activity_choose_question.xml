@@ -1,0 +1,19 @@
+<!-- activity_choose_question.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/questionButtonsLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ChooseQuestionActivity">
+
+    <!-- Add a button to go back to the main menu -->
+    <Button
+        android:id="@+id/backToMenuBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Menu" />
+
+</LinearLayout>
